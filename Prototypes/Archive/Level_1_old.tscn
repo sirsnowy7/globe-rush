@@ -1,0 +1,91 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://default_env.tres" type="Environment" id=1]
+[ext_resource path="res://Scripts/Player.gd" type="Script" id=2]
+[ext_resource path="res://Player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Models/level1.glb" type="PackedScene" id=4]
+[ext_resource path="res://Cuboid.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Goal.tscn" type="PackedScene" id=6]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="Player" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 5 )
+gravity_scale = 3.0
+script = ExtResource( 2 )
+
+[node name="CameraBase" type="Spatial" parent="."]
+
+[node name="Camera" type="Camera" parent="CameraBase"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 7 )
+far = 1000.0
+
+[node name="Collectibles" type="Spatial" parent="."]
+
+[node name="Cuboid" parent="Collectibles" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.972417, -9.80356 )
+
+[node name="Cuboid4" parent="Collectibles" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.00821, 7.64256, 2.54509 )
+
+[node name="Cuboid5" parent="Collectibles" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.05449, 7.56711, 2.53983 )
+
+[node name="Cuboid6" parent="Collectibles" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.36049, 7.56711, 2.51202 )
+
+[node name="Cuboid7" parent="Collectibles" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.75124, 7.56711, 2.52532 )
+
+[node name="Cuboid8" parent="Collectibles" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.10568, 7.56711, 2.5782 )
+
+[node name="Cuboid9" parent="Collectibles" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.5631, 7.5671, 2.57729 )
+
+[node name="Cuboid10" parent="Collectibles" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.8094, 7.63576, 2.32692 )
+
+[node name="Cuboid11" parent="Collectibles" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -24.6106, 7.71611, 6.56168 )
+
+[node name="Cuboid12" parent="Collectibles" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -32.8888, 7.71611, 9.00024 )
+
+[node name="Cuboid13" parent="Collectibles" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -30.951, 7.71611, 1.25337 )
+
+[node name="Cuboid16" parent="Collectibles" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -36.0306, 7.71611, -2.95845 )
+
+[node name="Cuboid17" parent="Collectibles" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -41.888, 4.77513, -3.24746 )
+
+[node name="Cuboid18" parent="Collectibles" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -52.3427, 3.28098, -3.35467 )
+
+[node name="Cuboid19" parent="Collectibles" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -62.2341, 1.67189, -1.73977 )
+
+[node name="Cuboid20" parent="Collectibles" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -72.7162, -0.195793, -3.21574 )
+
+[node name="Cuboid21" parent="Collectibles" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -83.3249, -1.94855, 1.46762 )
+
+[node name="Cuboid22" parent="Collectibles" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -98.2904, -4.50585, -2.19843 )
+
+[node name="Cuboid23" parent="Collectibles" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -107.783, -5.14427, -3.21589 )
+
+[node name="Cuboid24" parent="Collectibles" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -116.856, -5.14427, -3.21589 )
+
+[node name="Goal" parent="." instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -122.63, -4.23154, -3 )
+
+[node name="Level" parent="." instance=ExtResource( 4 )]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = ExtResource( 1 )

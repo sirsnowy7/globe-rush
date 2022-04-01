@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/idea.mp3-12e3227b086400031a084c526f71a756.mp3str"
+
+[deps]
+
+source_file="res://Resources/Sound/Soundtrack/idea.mp3"
+dest_files=[ "res://.import/idea.mp3-12e3227b086400031a084c526f71a756.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

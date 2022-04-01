@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/solitude.mp3-3dcf1b9dc69025b29cd2b2f300a33653.mp3str"
+
+[deps]
+
+source_file="res://Resources/Sound/Soundtrack/solitude.mp3"
+dest_files=[ "res://.import/solitude.mp3-3dcf1b9dc69025b29cd2b2f300a33653.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

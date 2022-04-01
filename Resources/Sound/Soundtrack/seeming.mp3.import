@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/seeming.mp3-296b02a9f58ce6796c52c37c2a04c6d9.mp3str"
+
+[deps]
+
+source_file="res://Resources/Sound/Soundtrack/seeming.mp3"
+dest_files=[ "res://.import/seeming.mp3-296b02a9f58ce6796c52c37c2a04c6d9.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

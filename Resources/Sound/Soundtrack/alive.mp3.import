@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/alive.mp3-a38ef50eeaf79c8137615b68085501cb.mp3str"
+
+[deps]
+
+source_file="res://Resources/Sound/Soundtrack/alive.mp3"
+dest_files=[ "res://.import/alive.mp3-a38ef50eeaf79c8137615b68085501cb.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

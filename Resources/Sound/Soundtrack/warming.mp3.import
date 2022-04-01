@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/warming.mp3-c4f05b677e5bd44efd5c34cb9f7d6c11.mp3str"
+
+[deps]
+
+source_file="res://Resources/Sound/Soundtrack/warming.mp3"
+dest_files=[ "res://.import/warming.mp3-c4f05b677e5bd44efd5c34cb9f7d6c11.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
